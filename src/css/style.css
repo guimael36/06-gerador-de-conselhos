@@ -1,0 +1,59 @@
+html {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+main {
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 15px;
+    display: inline-block;
+    background-color: var(--advice-card-color);
+    height: 400px;
+    width: 700px;
+}
+
+.numero-conselho {
+    text-align: center;
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 70px;
+}
+
+.conselho {
+    margin-top: 40px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.divisor {
+    margin-top: 60px;
+    height: 100%;
+    width: 90%;
+    margin-left: 37px;
+}
+
+button {
+    margin-top: 35px;
+
+}
+
+.botao {
+    background-color: var(--advice-dice-color);
+    height: 128px;
+    width: 128px;
+    border-radius: 100px;
+    transform: translateX(224%);
+}
+
+.img-botao {
+    height: 64px;
+    width: 64px;
+}
